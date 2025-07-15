@@ -1,8 +1,8 @@
-package com.fastcampus;
+package com.fastcampus.example;
 
 import java.util.Scanner;
 
-public class Main {
+public class _2480 {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
