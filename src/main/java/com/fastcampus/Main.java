@@ -3,26 +3,15 @@ package com.fastcampus;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args){
 
         Scanner sc = new Scanner(System.in);
+        int x = sc.nextInt();
 
-        int a = sc.nextInt();
-        int b = sc.nextInt();
-        int c = sc.nextInt();
+        for(int i = 1; i<=9;i++){
+            System.out.printf("%d * %d  = %d\n",x,i,x*i);
 
-
-        if (a == b && b == c) {
-            System.out.println(10000 + a * 1000);
-        } else if (a == b || a == c) {
-            System.out.println(1000 + a * 100);
-        } else if (b == c) {
-            System.out.println(1000 + b * 100);
-        } else {
-            int max = Math.max(a, Math.max(b, c));
-            System.out.println(max * 100);
         }
 
-        sc.close();
     }
 }
