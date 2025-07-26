@@ -117,4 +117,9 @@ public class MyArrayList<E> implements ListInterface<E> {
         }
 
     }
+
+
+    public int getCapacity(){
+        return DEFAULT_CAPACITY;
+    }
 }
