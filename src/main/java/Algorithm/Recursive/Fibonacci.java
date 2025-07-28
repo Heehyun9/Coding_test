@@ -57,6 +57,11 @@ public class Fibonacci {
 
         sum = fibonacci.fibonacciIter(7);
         System.out.println(sum);
+
+        sum = fibonacci.fibonacciMem(7);
+        System.out.println(sum);
+
+
     }
 
 
