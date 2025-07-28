@@ -1,6 +1,6 @@
-package com.fastcampus.list.arraylist;
+package Algorithm.list.arraylist;
 
-import com.fastcampus.list.ListInterface;
+import Algorithm.list.ListInterface;
 
 public class MyArrayList<E> implements ListInterface<E> {
 

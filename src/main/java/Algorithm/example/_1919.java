@@ -1,4 +1,4 @@
-package com.fastcampus.example;
+package Algorithm.example;
 
 import java.util.Scanner;
 

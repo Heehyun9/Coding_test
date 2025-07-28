@@ -1,4 +1,4 @@
-package com.fastcampus.list;
+package Algorithm.list;
 
 //알고리즘 구현에 사용할 메서드
 //상속받는쪽에서 구현해서 사용

@@ -1,6 +1,6 @@
-package com.fastcampus.Queue;
+package Algorithm.Queue;
 
-import com.fastcampus.Stack.MyArrayStack;
+import Algorithm.Stack.MyArrayStack;
 
 public class Palindrom {
     private static boolean isPalindrom(String str) {

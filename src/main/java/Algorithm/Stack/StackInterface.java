@@ -1,4 +1,4 @@
-package com.fastcampus.Stack;
+package Algorithm.Stack;
 
 public interface StackInterface<E> {
     public void push(E newItem);

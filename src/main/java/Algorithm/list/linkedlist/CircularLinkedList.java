@@ -1,6 +1,6 @@
-package com.fastcampus.list.linkedlist;
+package Algorithm.list.linkedlist;
 
-import com.fastcampus.list.ListInterface;
+import Algorithm.list.ListInterface;
 
 public class CircularLinkedList<E extends Comparable<E>> implements ListInterface<E>{
 

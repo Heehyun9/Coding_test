@@ -1,6 +1,6 @@
-package com.fastcampus.Stack;
+package Algorithm.Stack;
 
-import com.fastcampus.list.arraylist.MyArrayList;
+import Algorithm.list.arraylist.MyArrayList;
 
 
 //ArrayList를 이용하여 Stack 구현

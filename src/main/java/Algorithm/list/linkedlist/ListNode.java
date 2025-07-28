@@ -1,4 +1,4 @@
-package com.fastcampus.list.linkedlist;
+package Algorithm.list.linkedlist;
 
 public class ListNode<E> {
 

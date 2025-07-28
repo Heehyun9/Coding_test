@@ -1,4 +1,4 @@
-package com.fastcampus.list.arraylist;
+package Algorithm.list.arraylist;
 
 public class MyArrayListTest {
     public static void main(String[] args) {

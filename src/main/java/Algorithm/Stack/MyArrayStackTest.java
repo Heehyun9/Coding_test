@@ -1,4 +1,4 @@
-package com.fastcampus.Stack;
+package Algorithm.Stack;
 
 public class MyArrayStackTest {
     public static void main(String[] args){

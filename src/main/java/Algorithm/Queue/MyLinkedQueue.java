@@ -1,6 +1,6 @@
-package com.fastcampus.Queue;
+package Algorithm.Queue;
 
-import com.fastcampus.list.linkedlist.CircularLinkedList;
+import Algorithm.list.linkedlist.CircularLinkedList;
 
 public class MyLinkedQueue<E extends Comparable<E>> extends CircularLinkedList<E> implements QueueInterface<E>{
 
