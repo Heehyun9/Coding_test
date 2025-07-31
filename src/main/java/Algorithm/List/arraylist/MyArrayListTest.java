@@ -1,4 +1,4 @@
-package Algorithm.list.arraylist;
+package Algorithm.List.arraylist;
 
 public class MyArrayListTest {
     public static void main(String[] args) {

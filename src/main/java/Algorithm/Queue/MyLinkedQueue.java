@@ -1,6 +1,6 @@
 package Algorithm.Queue;
 
-import Algorithm.list.linkedlist.CircularLinkedList;
+import Algorithm.List.linkedlist.CircularLinkedList;
 
 public class MyLinkedQueue<E extends Comparable<E>> extends CircularLinkedList<E> implements QueueInterface<E>{
 

@@ -1,6 +1,6 @@
 package Algorithm.Stack;
 
-import Algorithm.list.arraylist.MyArrayList;
+import Algorithm.List.arraylist.MyArrayList;
 
 
 //ArrayList를 이용하여 Stack 구현

@@ -1,6 +1,6 @@
-package Algorithm.list.arraylist;
+package Algorithm.List.arraylist;
 
-import Algorithm.list.ListInterface;
+import Algorithm.List.ListInterface;
 
 public class MyArrayList<E> implements ListInterface<E> {
 

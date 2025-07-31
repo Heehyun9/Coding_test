@@ -1,4 +1,4 @@
-package Algorithm.list.linkedlist;
+package Algorithm.List.linkedlist;
 
 public class MyLinkedListTest {
 
@@ -9,7 +9,7 @@ public class MyLinkedListTest {
         list.addElement("B");
         list.addElement("C");
 
-        //list.removeElement(3);
+        //List.removeElement(3);
         list.printAll();
         list.reverseList();
         list.printAll();

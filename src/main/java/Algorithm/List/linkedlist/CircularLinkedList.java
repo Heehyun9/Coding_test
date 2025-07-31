@@ -1,6 +1,6 @@
-package Algorithm.list.linkedlist;
+package Algorithm.List.linkedlist;
 
-import Algorithm.list.ListInterface;
+import Algorithm.List.ListInterface;
 
 public class CircularLinkedList<E extends Comparable<E>> implements ListInterface<E>{
 
