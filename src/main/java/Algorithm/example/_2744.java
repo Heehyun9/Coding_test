@@ -5,29 +5,15 @@ import java.util.Scanner;
 public class _2744 {
     public static void main(String[] args) {
 
-        //대소문자 차이 구하기
-        int k = 'A' - 'a';
-
-        //1. Scanner 호출
         Scanner sc = new Scanner(System.in);
-        String input = sc.nextLine();
+        String str = sc.next();  //공백으로 구분된 문자
+        for(int i = 0;i < str.length(); i++){
+            char ch = str.charAt(i);
+            if('A' <= ch && ch <='Z')
+                System.out.print((char)('a' + ch - 'A'));  //base 인 a에서 'A'-ch만큼을 더한 소문자
+            else System.out.print((char)('A' + ch - 'a'));
 
-        //2. 문자열을 char array로 분할
-        char[] inputCharArray = input.toCharArray();
-
-        //3. for문으로 문자가 65-90이면 +32
-        // 97-122이면 -32
-
-        for(int i = 0;i <inputCharArray.length; i++){
-            if(inputCharArray[i]>= 'a' && inputCharArray[i] <= 'z'){
-                inputCharArray[i] += k;  //소문자를 대문자로 변환
-            }else if (inputCharArray[i] >= 'A' && inputCharArray[i] <= 'z'){
-                inputCharArray[i] -= k;  //대문자를 소문자로 변환
-            }
         }
 
-        //4.출력하기
-        System.out.println(inputCharArray);
-        sc.close();
     }
 }
