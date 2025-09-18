@@ -5,40 +5,27 @@ import java.util.Scanner;
 public class _1919 {
     public static void main(String[] args) {
 
-        //1. 두 단어 입력 받기
         Scanner sc = new Scanner(System.in);
-        String sc1 = sc.nextLine();
-        char[] a = sc1.toCharArray();
-        String sc2 = sc.nextLine();
-        char[] b = sc2.toCharArray();
-        System.out.println(a);
-        System.out.println(b);
+        String a = sc.next(); //공백으로 구분된 한 문자열
+        String b = sc.next();
 
+        int[] countA = new int[26]; //알파벳 개수 dared :[1,0,0,2...]
+        int[] countB = new int[26];
 
-        //2. 안맞는 개수 담을
-        int k = 0;
-        int count = 0;
+        //배열에 해당하는 알파벳의 count를 늘린다.알파벳 개수 기록하는 배열
+        for(int i = 0;i<a.length();i++)
+            countA[a.charAt(i)-'a']++;
 
-        //3. 첫번째 단어를 두번째 단어와 비교하기
-        for (int i = 0; i < a.length; i++) {
-            k = 0;  //초기화
-            for (int j = 0; j < b.length; j++) {
+        for(int i = 0;i<b.length();i++)
+            countB[a.charAt(i)-'a']++;
 
-                if (a[i] != b[j]) k++;
-                if(k == a.length) count++;
-            }
+        int ans = 0;
+        for(int i = 0;i<26;i++){
+            if(countA[i] > countB[i])
+                ans += countA[i] - countB[i];
+            else if(countB[i] > countA[i])
+                ans += countB[i] - countA[i];
         }
-        //4. 두번째 단어를 첫번째 단어와 비교하기
-        for (int m = 0; m < b.length; m++) {
-            k = 0;  //초기화
-            for (int l = 0; l < a.length; l++) {
-
-                if (a[m] != b[l]) k++;
-                if(k == b.length) count++;
-            }
-        }
-
-        System.out.println(count);
-        sc.close();
+        System.out.println(ans);
     }
 }
